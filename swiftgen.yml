@@ -1,0 +1,12 @@
+## XCAssets
+# 1
+xcassets:
+  # 2
+  inputs:
+    - Unsplash-feed/Resources/Assets.xcassets
+  # 3
+  outputs:
+    # 4
+    templateName: swift5
+    # 5
+    output: Unsplash-feed/Resources/Assets.swift
