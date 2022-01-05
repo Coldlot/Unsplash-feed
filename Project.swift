@@ -26,6 +26,10 @@ let plist = InfoPlist.dictionary([
         "UIInterfaceOrientationPortrait"
     ]),
     "UILaunchStoryboardName": .string("LaunchScreen"),
+    "UIAppFonts": .array([
+        .string("Roboto-Bold.ttf"),
+        .string("Roboto-Regular.ttf")
+    ]),
 //FIXME: - Switch project to the new Lifecycle
 //    "UIApplicationSceneManifest": .dictionary([
 //        "UIApplicationSupportsMultipleScenes": .boolean(false),
