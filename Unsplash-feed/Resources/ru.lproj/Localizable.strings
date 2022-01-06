@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Unsplash-feed
+
+  Created by Andrey Sergeev on 06.01.2022.
+  
+*/
+"PickReactiveFrameworkTitle" = "Выберите реактивный фреймворк и источник данных";
+"Remote" = "Сервер";
+"LocalMocks" = "Локальные моки";
