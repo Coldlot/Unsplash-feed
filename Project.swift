@@ -6,12 +6,6 @@ let linting = TargetScript.post(
     name: "SwiftLint"
 )
 
-let codegen = TargetScript.pre(
-    path: "gen-resources.sh",
-    arguments: [],
-    name: "CodeGen"
-)
-
 let plist = InfoPlist.dictionary([
     "CFBundleDevelopmentRegion": .string("$(DEVELOPMENT_LANGUAGE)"),
     "CFBundleExecutable": .string("$(EXECUTABLE_NAME)"),
@@ -60,7 +54,7 @@ let target = Target(
         "Unsplash-feed/Resources/**",
         "Unsplash-feed/**/*.storyboard"
     ],
-    scripts: [codegen, linting],
+    scripts: [linting],
     dependencies: [
         .package(product: "SnapKit"),
         .package(product: "RxSwift"),
